@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MoneyTrail Fast Launch Splash Screen -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background gradient only - no logo for faster loading -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:startColor="#149446"
+                android:centerColor="#149446"
+                android:endColor="#202127"
+                android:type="linear" />
+        </shape>
+    </item>
+</layer-list>
